@@ -14086,7 +14086,7 @@ button.gm-ui-hover-effect::after {
     border-radius: 0px !important;
   }
   .car1 {
-    height: 200px !important;
+    height: 160px !important;
     margin-top: 60px !important;
   }
   .msg {
@@ -14234,8 +14234,8 @@ button.gm-ui-hover-effect::after {
   }
   .feed-section-header-title {
     font-family: "Segoe UI", sans-serif;
-    font-size: 10px !important;
-    font-weight: 600;
+    font-size:20px !;
+    font-weight: 700;
     letter-spacing: 0.6px;
   }
 }
@@ -14259,29 +14259,32 @@ button.gm-ui-hover-effect::after {
   }
 }
 .feed-section-header-title {
-  font-family: "Segoe UI", sans-serif;
-  font-size: 1.6rem !important;
-  font-weight: 700;
-  letter-spacing: 0.8px;
+  font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-feature-settings: normal;
+    line-height: 28px;
+    letter-spacing: 0.8px;
 }
 .feed-section-header-title1{
   font-family: "Segoe UI", sans-serif;
   font-size: 1rem !important;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.8px;
   margin-left: 20px;
 }
 .feed-section-header-title2{
   font-family: "Segoe UI", sans-serif;
   font-size: 0.8rem !important;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.8px;
   margin-left: 1px;
 }
 .city-display-name {
   font-family: "Segoe UI", sans-serif;
   font-size: 1.125rem !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   font-style: normal;
   font-feature-settings: normal;
   line-height: 1.75rem;
@@ -14345,6 +14348,10 @@ button.gm-ui-hover-effect::after {
 @media screen and (max-width: 767px) {
   .btnmedia2{
     display: none;
+  }
+  .img11{
+    width: 102px !important;
+    margin-left: -28px !important;
   }
   .btnmedia{
     display: block !important;
