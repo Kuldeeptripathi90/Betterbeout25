@@ -14422,3 +14422,39 @@ color: white;
     height: 400px;
   }
 }
+
+.image-container {
+  position: relative;
+  width: 93%;
+  height: 500px;
+  margin: auto;
+}
+
+.background-image {
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #05073c; /* Adjust the color to contrast with the background image */
+  font-size: 24px; /* Adjust font size as needed */
+  text-align: center;
+  padding: 10px; /* Optional: add padding for better text readability */
+  border-radius: 4px; /* Optional: round the corners of the background */
+  font-weight: 700 !important;
+}
+@media screen and (max-width:768px) {
+  .background-image img{
+  margin-top: 5px !important;
+  height: 200px !important;
+  width: 93% !important;
+  margin: auto;
+  }
+
+}
