@@ -14264,7 +14264,7 @@ button.gm-ui-hover-effect::after {
 
 @media screen and (max-width:360px) {
   .msk{
-   display: none;
+   /* display: none; */
   }
 }
 .feed-section-header-title {
@@ -14356,9 +14356,7 @@ button.gm-ui-hover-effect::after {
     margin-left: -130px;
   }
 }
-.mesw {
-  font-size: 13px !important;
-}
+
 @media screen and (max-width: 767px) {
   .btnmedia2{
     display: none;
