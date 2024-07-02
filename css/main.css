@@ -3408,7 +3408,7 @@ h6 {
   }
 
   .product1 {
-    font-size: 16px !important;
+    font-size: 78px !important;
     margin-left: 10px !important;
   }
 
@@ -3419,6 +3419,9 @@ h6 {
 
   .btn22 {
     top: 500px !important;
+  }
+  .contectHead{
+    padding-top: 40px !important;
   }
 }
 
@@ -14864,6 +14867,7 @@ button.gm-ui-hover-effect::after {
 
   .featureImage__title {
     margin-left: 0px !important;
+    font-size: 13px !important;
   }
 }
 
@@ -15081,6 +15085,15 @@ button.gm-ui-hover-effect::after {
 }
 
 @media (max-width: 500px) {
+
+  .featureImage_image img{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .featureImage__image img{
+    width: 100px !important;
+  height: 100px !important;
+  }
   .shiping_foot {
     padding-left: 120px;
   }
@@ -15193,7 +15206,7 @@ button.gm-ui-hover-effect::after {
 
 .feed-section-header-title1 {
   font-family: "Segoe UI", sans-serif;
-  font-size: 1rem !important;
+  font-size: 2rem !important;
   font-weight: 550;
   letter-spacing: 0px;
   margin-left: 20px;
@@ -15273,7 +15286,7 @@ button.gm-ui-hover-effect::after {
 }
 
 .featureImage__title {
-  margin-left: -0px;
+  margin-left: -30px;
   font-weight: 650 !important;
 }
 
@@ -15341,6 +15354,14 @@ button.gm-ui-hover-effect::after {
   .seeall_media{
     display: none;
   }
+  .feed-section-header-title{
+    padding-top: 0px !important;
+  font-size: 20px !important;
+  }
+  .product1{
+    font-size: 30px !important;
+    left: 20 !important;
+  }
 }
 
 .btnmedia {
@@ -15365,6 +15386,13 @@ button.gm-ui-hover-effect::after {
     background-position: cover;
     height: 450px;
   }
+  .footer__bottomimg {
+   width: 100px;
+  }
+  .feed-section-header-title1{
+    font-size: 30px !important;
+    left: 20% !important;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -15375,41 +15403,10 @@ button.gm-ui-hover-effect::after {
     background-position: cover;
     height: 400px;
   }
+  .footer__bottomimg {
+    width: 100px;
+   }
 }
-
-.image-container {
-  position: relative;
-  width: 93%;
-  height: 500px;
-  margin: auto;
-}
-
-.background-image {
-  width: 95%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #05073c; /* Adjust the color to contrast with the background image */
-  font-size: 24px; /* Adjust font size as needed */
-  text-align: center;
-  padding: 10px; /* Optional: add padding for better text readability */
-  border-radius: 4px; /* Optional: round the corners of the background */
-  font-weight: 700 !important;
-}
-@media screen and (max-width:768px) {
-  .background-image img{
-  margin-top: 5px !important;
-  height: 200px !important;
-  width: 93% !important;
-  margin: auto;
-  }
 
 .popular-cities-container {
   margin: 30px 0 20px;
@@ -15436,7 +15433,7 @@ button.gm-ui-hover-effect::after {
   text-decoration: underline;
   color: #e52a6e;
   /* Optional: change hover color */
-}}
+}
 
 
 /* our partner css */
@@ -15555,4 +15552,47 @@ button.gm-ui-hover-effect::after {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   background: rgba(48, 47, 47, 0.9);
+}
+
+
+.swiper-button-next-category, 
+.swiper-button-prev-category {
+  color: white !important;
+  background: rgba(84, 82, 82, 0.7);
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 45% !important;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  font-size: 30px !important;
+  padding: 10px;
+}
+
+
+
+.swiper-button-prev-category {
+  left: 10px;
+}
+
+.swiper-button-next-category {
+  right: 10px;
+}
+
+.swiper-button-prev-category:hover,
+.swiper-button-next-category:hover {
+  background: rgba(48, 47, 47, 0.9);
+}
+.swiper-button-next-category i, 
+.swiper-button-prev-category i{
+font-weight: 300;
+}
+
+.searchnew{
+  top: 80% !important;
 }
