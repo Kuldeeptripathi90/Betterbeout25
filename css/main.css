@@ -6048,6 +6048,7 @@ h6 {
   background-size: 0px 1px;
   transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
   padding: 0.1% 0px;
+  font-weight: 600 !important;
 }
 
 .tourCard:hover .tourCard__title span {
@@ -14950,7 +14951,22 @@ button.gm-ui-hover-effect::after {
     display: block;
     margin-top: 100px;
   }
-
+/* .headernav-mobial{
+  width: 350px !important;
+  margin-top: 50px !important;
+  margin-bottom: 10px !important;
+}
+.medialogo img{
+  width: 500px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+/* .header.-type-1 .header__container{
+  height: auto !important;
+} */
+.categorytext{
+  left: 35% !important;
+}
   .categorybg img {
     margin-top: 10px !important;
     padding: 10px;
@@ -15273,7 +15289,6 @@ button.gm-ui-hover-effect::after {
 }
 
 .city-display-name {
-  font-family: "Segoe UI", sans-serif;
   font-size: 1.125rem !important;
   font-weight: 550 !important;
   font-style: normal;
@@ -15383,7 +15398,7 @@ button.gm-ui-hover-effect::after {
     margin-left: 50px !important;
   }
 .accordion__button {
-  margin-top: -50px !important;
+  /* margin-top: -50px !important; */
   margin-left: -10px !important;
 }
   .tourlist2img img {
